@@ -3,6 +3,7 @@ from starlette.responses import JSONResponse
 from starlette.status import *
 import pyodbc
 import json
+import uvicorn
 
 app = FastAPI()
 
